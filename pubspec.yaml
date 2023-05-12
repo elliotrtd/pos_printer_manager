@@ -12,8 +12,11 @@ dependencies:
     sdk: flutter
   # flutter_blue: 
   #   path: ./../flutter_blue  
-  flutter_esc_pos_utils_image_3: ^0.1.9
-  #esc_pos_utils_plus:  ^2.0.1+6
+  #flutter_esc_pos_utils_image_3: ^0.1.9
+  esc_pos_utils:
+    git:
+      url: https://github.com/elliotrtd/esc_pos_utils.git
+      ref: master
     # path: ./../esc_pos_utils_plus
   blue_thermal_printer: ^1.1.8          
   network_info_plus: ^2.1.2
