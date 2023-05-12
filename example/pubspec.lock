@@ -141,8 +141,8 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: master
-      resolved-ref: cee0b375b2f251fc8ff5de9ad6f54a5f7b4597cf
+      ref: e959262
+      resolved-ref: e95926286abc475138142217f8c94596b5920b3b
       url: "https://github.com/elliotrtd/esc_pos_utils.git"
     source: git
     version: "1.1.0"
