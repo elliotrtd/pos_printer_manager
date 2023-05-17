@@ -1,6 +1,7 @@
 import 'dart:ffi';
 import 'dart:io';
 import 'dart:typed_data';
+import 'package:esc_pos_utils_plus/esc_pos_utils.dart';
 import 'package:ffi/ffi.dart';
 import 'package:flutter_usb_printer/flutter_usb_printer.dart';
 import 'package:win32/win32.dart';
@@ -32,7 +33,7 @@ class USBPrinterManager extends PrinterManager {
     PaperSize paperSize,
     CapabilityProfile profile, {
     int spaceBetweenRows = 5,
-    int port: 9100,
+    int port = 9100,
   }) {
     super.printer = printer;
     super.address = printer.address;
@@ -43,13 +44,11 @@ class USBPrinterManager extends PrinterManager {
     super.profile = profile;
     super.spaceBetweenRows = spaceBetweenRows;
     super.port = port;
-    generator =
-        Generator(paperSize, profile, spaceBetweenRows: spaceBetweenRows);
+    generator = Generator(paperSize, profile, spaceBetweenRows: spaceBetweenRows);
   }
 
   @override
-  Future<ConnectionResponse> connect(
-      {Duration? timeout: const Duration(seconds: 5)}) async {
+  Future<ConnectionResponse> connect({Duration? timeout = const Duration(seconds: 5)}) async {
     if (Platform.isWindows) {
       try {
         docInfo = calloc<DOC_INFO_1>()
@@ -63,8 +62,7 @@ class USBPrinterManager extends PrinterManager {
           PosPrinterManager.logger.error("can not open");
           this.isConnected = false;
           this.printer.connected = false;
-          return Future<ConnectionResponse>.value(
-              ConnectionResponse.printerNotConnected);
+          return Future<ConnectionResponse>.value(ConnectionResponse.printerNotConnected);
         } else {
           PosPrinterManager.logger.info("szPrinterName: $szPrinterName");
           this.hPrinter = phPrinter.value;
@@ -132,8 +130,7 @@ class USBPrinterManager extends PrinterManager {
   }
 
   @override
-  Future<ConnectionResponse> writeBytes(List<int> data,
-      {bool isDisconnect = true}) async {
+  Future<ConnectionResponse> writeBytes(List<int> data, {bool isDisconnect = true}) async {
     if (Platform.isWindows) {
       try {
         if (!this.isConnected) {
@@ -207,8 +204,7 @@ class USBPrinterManager extends PrinterManager {
 
       /// maxChunk limit on android
       var datas = bytes.chunkBy(max);
-      await Future.forEach(
-          datas, (dynamic data) async => await usbPrinter.write(data));
+      await Future.forEach(datas, (dynamic data) async => await usbPrinter.write(data));
       PosPrinterManager.logger("end write bytes.length${bytes.length}");
 
       if (isDisconnect) {

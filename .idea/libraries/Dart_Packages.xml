@@ -32,13 +32,6 @@
             </list>
           </value>
         </entry>
-        <entry key="bidi">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/bidi-2.0.6/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="blue_thermal_printer">
           <value>
             <list>
@@ -125,10 +118,10 @@
             </list>
           </value>
         </entry>
-        <entry key="esc_pos_utils">
+        <entry key="esc_pos_utils_plus">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/git/esc_pos_utils-bcb693d3d06ee917bbad36ac46190703ffd5aaa5//lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/esc_pos_utils_plus-2.0.1+6/lib" />
             </list>
           </value>
         </entry>
@@ -174,13 +167,6 @@
             </list>
           </value>
         </entry>
-        <entry key="gbk_codec">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/gbk_codec-0.4.0/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="hex">
           <value>
             <list>
@@ -213,7 +199,7 @@
         <entry key="image">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image-4.0.17/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/image-3.3.0/lib" />
             </list>
           </value>
         </entry>
@@ -320,14 +306,7 @@
         <entry key="pdf">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/pdf-3.10.3/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="pdf_widget_wrapper">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/pdf_widget_wrapper-1.0.1/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/pdf-3.8.4/lib" />
             </list>
           </value>
         </entry>
@@ -362,7 +341,7 @@
         <entry key="printing">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/printing-5.10.4/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/printing-5.9.3/lib" />
             </list>
           </value>
         </entry>
@@ -471,7 +450,6 @@
       <root url="file:///Library/Development/flutter/packages/flutter/lib" />
       <root url="file:///Library/Development/flutter/packages/flutter_test/lib" />
       <root url="file:///Library/Development/flutter/packages/flutter_web_plugins/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/git/esc_pos_utils-bcb693d3d06ee917bbad36ac46190703ffd5aaa5//lib" />
       <root url="file://$USER_HOME$/.pub-cache/git/flutter_usb_printer-1076933649cae966f43338471e60b89bdbeeb556//lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.1.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.1.6/lib" />
@@ -479,7 +457,6 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/args-2.3.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/async-2.11.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/barcode-2.2.3/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/bidi-2.0.6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/blue_thermal_printer-1.2.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/boolean_selector-2.1.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/characters-1.3.0/lib" />
@@ -494,15 +471,15 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dbus-0.7.8/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/dio-4.0.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/easy_logger-0.0.2/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/esc_pos_utils_plus-2.0.1+6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/fake_async-1.3.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/ffi-2.0.2/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/gbk_codec-0.4.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/hex-0.2.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/html-0.15.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http-0.13.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http-0.13.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http_parser-4.0.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/image-4.0.17/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/image-3.3.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/js-0.6.7/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/logging-1.0.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/matcher-0.12.15/lib" />
@@ -519,13 +496,12 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path-1.8.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_parsing-0.2.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/path_parsing-1.0.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/pdf-3.10.3/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/pdf_widget_wrapper-1.0.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/pdf-3.8.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/pedantic-1.11.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/petitparser-5.4.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/pool-1.5.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/printing-5.10.4/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/printing-5.9.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/puppeteer-2.24.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/qr-3.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/source_span-1.9.1/lib" />

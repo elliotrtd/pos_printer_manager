@@ -2,6 +2,7 @@ import 'dart:async';
 import 'dart:io';
 import 'dart:typed_data';
 import 'package:blue_thermal_printer/blue_thermal_printer.dart' as themal;
+import 'package:esc_pos_utils_plus/esc_pos_utils.dart';
 import 'package:pos_printer_manager/models/pos_printer.dart';
 import 'package:pos_printer_manager/pos_printer_manager.dart';
 import 'bluetooth_service.dart';
@@ -19,7 +20,7 @@ class BluetoothPrinterManager extends PrinterManager {
     PaperSize paperSize,
     CapabilityProfile profile, {
     int spaceBetweenRows = 5,
-    int port: 9100,
+    int port = 9100,
   }) {
     super.printer = printer;
     super.address = printer.address;
@@ -27,13 +28,11 @@ class BluetoothPrinterManager extends PrinterManager {
     super.profile = profile;
     super.spaceBetweenRows = spaceBetweenRows;
     super.port = port;
-    generator =
-        Generator(paperSize, profile, spaceBetweenRows: spaceBetweenRows);
+    generator = Generator(paperSize, profile, spaceBetweenRows: spaceBetweenRows);
   }
 
   /// [connect] let you connect to a bluetooth printer
-  Future<ConnectionResponse> connect(
-      {Duration? timeout: const Duration(seconds: 5)}) async {
+  Future<ConnectionResponse> connect({Duration? timeout = const Duration(seconds: 5)}) async {
     try {
       // if (Platform.isIOS) {
       // fbdevice = fblue.BluetoothDevice.fromProto(proto.BluetoothDevice(
@@ -77,8 +76,7 @@ class BluetoothPrinterManager extends PrinterManager {
 
   /// [writeBytes] let you write raw list int data into socket
   @override
-  Future<ConnectionResponse> writeBytes(List<int> data,
-      {bool isDisconnect: true}) async {
+  Future<ConnectionResponse> writeBytes(List<int> data, {bool isDisconnect = true}) async {
     try {
       if (!isConnected) {
         await connect();
