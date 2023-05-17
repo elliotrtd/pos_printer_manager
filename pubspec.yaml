@@ -4,16 +4,20 @@ version: 0.0.5
 homepage: https://github.com/kechankrisna/pos_printer_manager
 
 environment:
-  sdk: '>=3.0.0'
-  flutter: ">=3.0.0"
+  sdk: '>=2.12.0 <3.0.0'
+  flutter: ">=1.20.0"
 
 dependencies:
   flutter:
     sdk: flutter
   # flutter_blue: 
   #   path: ./../flutter_blue
-
-  esc_pos_utils_plus:  ^2.0.1+6
+  #flutter_esc_pos_utils_image_3: ^0.1.9
+  esc_pos_utils_plus:
+    git:
+      url: https://github.com/elliotrtd/esc_pos_utils.git
+      ref: "d72d853"
+    # path: ./../esc_pos_utils_plus
   blue_thermal_printer: ^1.2.3
   network_info_plus: ^2.1.2
   easy_logger: ^0.0.2
