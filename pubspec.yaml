@@ -16,9 +16,9 @@ dependencies:
   esc_pos_utils:
     git:
       url: https://github.com/elliotrtd/esc_pos_utils.git
-      ref: "e959262"
+      ref: "bcb693d"
     # path: ./../esc_pos_utils_plus
-  blue_thermal_printer: ^1.1.8          
+  blue_thermal_printer: ^1.2.3
   network_info_plus: ^2.1.2
   easy_logger: ^0.0.2
   printing: ^5.6.6
