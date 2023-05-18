@@ -162,8 +162,8 @@ packages:
     dependency: transitive
     description:
       path: "."
-      ref: b1e2715
-      resolved-ref: b1e271538b01c706e0705e6e6e594ee8520b6ebf
+      ref: "8bdc18f"
+      resolved-ref: "8bdc18f2d38a688980e856d37c29f3cc57d0c162"
       url: "https://github.com/elliotrtd/flutter_esc_pos_utils.git"
     source: git
     version: "0.1.8"
