@@ -146,8 +146,8 @@ packages:
     dependency: "direct main"
     description:
       path: "."
-      ref: "3965508"
-      resolved-ref: "3965508552ab48a0e1bfebf292d0aa12923e6ab5"
+      ref: b1e2715
+      resolved-ref: b1e271538b01c706e0705e6e6e594ee8520b6ebf
       url: "https://github.com/elliotrtd/flutter_esc_pos_utils.git"
     source: git
     version: "0.1.8"

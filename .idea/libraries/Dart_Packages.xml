@@ -149,7 +149,7 @@
         <entry key="flutter_esc_pos_utils_image_3">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_esc_pos_utils_image_3-0.1.9/lib" />
+              <option value="$USER_HOME$/.pub-cache/git/flutter_esc_pos_utils-3965508552ab48a0e1bfebf292d0aa12923e6ab5//lib" />
             </list>
           </value>
         </entry>
@@ -478,6 +478,7 @@
       <root url="file:///Library/Development/flutter/packages/flutter/lib" />
       <root url="file:///Library/Development/flutter/packages/flutter_test/lib" />
       <root url="file:///Library/Development/flutter/packages/flutter_web_plugins/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_esc_pos_utils-3965508552ab48a0e1bfebf292d0aa12923e6ab5//lib" />
       <root url="file://$USER_HOME$/.pub-cache/git/flutter_usb_printer-1076933649cae966f43338471e60b89bdbeeb556//lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.1.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.1.6/lib" />
@@ -502,7 +503,6 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/easy_logger-0.0.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/fake_async-1.3.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/ffi-2.0.2/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_esc_pos_utils_image_3-0.1.9/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/gbk_codec-0.4.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/hex-0.2.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/html-0.15.0/lib" />
