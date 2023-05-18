@@ -145,11 +145,12 @@ packages:
   flutter_esc_pos_utils_image_3:
     dependency: "direct main"
     description:
-      name: flutter_esc_pos_utils_image_3
-      sha256: "27095d4ab248fc8f563839e4c954f7133f7cb8b36ec82c7e1c9947065ebed131"
-      url: "https://pub.dev"
-    source: hosted
-    version: "0.1.9"
+      path: "."
+      ref: "3965508"
+      resolved-ref: "3965508552ab48a0e1bfebf292d0aa12923e6ab5"
+      url: "https://github.com/elliotrtd/flutter_esc_pos_utils.git"
+    source: git
+    version: "0.1.8"
   flutter_test:
     dependency: "direct dev"
     description: flutter

@@ -13,7 +13,10 @@ dependencies:
   # flutter_blue: 
   #   path: ./../flutter_blue
   #flutter_esc_pos_utils_image_3: ^0.1.9
-  flutter_esc_pos_utils_image_3: ^0.1.9
+  flutter_esc_pos_utils_image_3:
+    git:
+      url: https://github.com/elliotrtd/flutter_esc_pos_utils.git
+      ref: "3965508"
     # path: ./../esc_pos_utils_plus
   blue_thermal_printer: ^1.2.3
   network_info_plus: ^2.1.2
