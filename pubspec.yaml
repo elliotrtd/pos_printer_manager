@@ -16,7 +16,7 @@ dependencies:
   flutter_esc_pos_utils_image_3:
     git:
       url: https://github.com/elliotrtd/flutter_esc_pos_utils.git
-      ref: "0bb3a69"
+      ref: "f19259b"
     # path: ./../esc_pos_utils_plus
   blue_thermal_printer: ^1.2.3
   network_info_plus: ^2.1.2
