@@ -149,7 +149,7 @@
         <entry key="flutter_esc_pos_utils_image_3">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/git/flutter_esc_pos_utils-8bdc18f2d38a688980e856d37c29f3cc57d0c162//lib" />
+              <option value="$USER_HOME$/.pub-cache/git/flutter_esc_pos_utils-0bb3a69328a64d9cbd54ff98b1c28930d60277c7//lib" />
             </list>
           </value>
         </entry>
@@ -478,7 +478,7 @@
       <root url="file:///Library/Development/flutter/packages/flutter/lib" />
       <root url="file:///Library/Development/flutter/packages/flutter_test/lib" />
       <root url="file:///Library/Development/flutter/packages/flutter_web_plugins/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/git/flutter_esc_pos_utils-8bdc18f2d38a688980e856d37c29f3cc57d0c162//lib" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_esc_pos_utils-0bb3a69328a64d9cbd54ff98b1c28930d60277c7//lib" />
       <root url="file://$USER_HOME$/.pub-cache/git/flutter_usb_printer-1076933649cae966f43338471e60b89bdbeeb556//lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.1.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/archive-3.1.6/lib" />
