@@ -20,7 +20,7 @@ dependencies:
   network_info_plus: ^2.1.2
   easy_logger: ^0.0.2
   printing: ^5.6.6
-  win32: ^4.1.4
+  win32: ^5.0.0
   ffi: ^2.0.1
   
 dev_dependencies:
